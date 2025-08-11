@@ -6,6 +6,7 @@ const Navigation = () => {
         <ul className="flex space-x-4">
             <li><Link to="/" className="hover:text-gray-400">Home</Link></li>
             <li><Link to="/what-is" className="hover:text-gray-400">What is it?</Link></li>
+            <li><Link to="/how-it-works" className="hover:text-gray-400">How It Works?</Link></li>
         </ul>
     </nav>
   );
