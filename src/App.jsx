@@ -1,7 +1,8 @@
-
 import './App.css'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import { Routes, Route, Navigate } from 'react-router-dom';
+import Home from './components/pages/Home'
 
 // Main App component
 
@@ -11,8 +12,11 @@ function App() {
     <div className="flex flex-col min-h-screen">
       <Header />
       <main className="p-4">
-        <h1 className="text-2xl font-bold">Welcome to My Hamsa App</h1>
-        <p className="mt-2">This is a simple React application with Tailwind CSS.</p>
+        <Routes>
+          <Route path="/" element={<Navigate to="/home" />} />
+          <Route path="/home" element={<Home />} />
+          {/* Add more routes as needed */}
+        </Routes>
       </main>
       <Footer />
       
