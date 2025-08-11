@@ -1,6 +1,10 @@
 import Hero from "../Hero";
 import Features from "../Features";
 import Process from "../Process";
+import Testimonials from "../Testinomials";
+import CallToAction from "../CallToAction";
+
+// Home component that combines all sections
 
 const Home = () => {
   return (
@@ -8,6 +12,8 @@ const Home = () => {
         <Hero />
         <Features />
         <Process />
+        <Testimonials />
+        <CallToAction />
     </div>
   );
 }
