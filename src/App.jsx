@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
-      <main className="flex-1 pt-24 pb-36 overflow-auto">
+      <main className="flex-1 pt-16 pb-36 overflow-auto">
         <Routes>          
           <Route path="/" element={<Home />} />
           {/* Add more routes as needed */}
