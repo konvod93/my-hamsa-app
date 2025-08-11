@@ -25,7 +25,7 @@ const Hero = () => {
             🪬
           </div>
         </div>
-        <h1 className="text-5xl md:text-6xl font-bold text-amber-200 mb-4 bg-gradient-to-r from-amber-200 to-yellow-300 bg-clip-text text-transparent">
+        <h1 className="text-5xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-amber-200 to-yellow-300 bg-clip-text text-transparent">
           Welcome to our Magical Service
         </h1>
         <p className="mt-4 text-xl md:text-2xl text-amber-200 mb-8 max-w-2xl mx-auto leading-relaxed">

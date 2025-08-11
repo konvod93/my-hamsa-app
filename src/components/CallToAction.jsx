@@ -17,7 +17,7 @@ const CallToAction = () => {
               Start Creating ✨
             </button>
           </Link>
-          <Link to="/learn-more">
+          <Link to="/what-is">
             <button className="inline-block px-10 py-4 bg-transparent border-2 border-amber-500 text-amber-500 text-xl font-bold rounded-full hover:bg-amber-500 hover:text-white transform hover:scale-105 transition-all duration-300 cursor-pointer">
               Learn More 📚
             </button>

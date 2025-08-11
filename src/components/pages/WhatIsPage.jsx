@@ -1,8 +1,10 @@
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 const WhatIsPage = () => {
   const [activeTab, setActiveTab] = useState('history');
   const [scrollY, setScrollY] = useState(0);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY);
@@ -225,7 +227,7 @@ const WhatIsPage = () => {
           <p className="text-xl text-amber-100 mb-12">
             Create your personalized Hamsa talisman and connect with thousands of years of protective wisdom.
           </p>
-          <button className="px-12 py-4 bg-gradient-to-r from-amber-500 to-orange-500 text-white text-xl font-bold rounded-full hover:from-amber-400 hover:to-orange-400 transform hover:scale-105 transition-all duration-300 shadow-2xl hover:shadow-amber-500/50">
+          <button onClick={() => navigate('/create-talisman')} className="px-12 py-4 bg-gradient-to-r from-amber-500 to-orange-500 text-white text-xl font-bold rounded-full hover:from-amber-400 hover:to-orange-400 transform hover:scale-105 transition-all duration-300 shadow-2xl hover:shadow-amber-500/50">
             Begin Your Journey ✨
           </button>
         </div>
