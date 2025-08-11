@@ -11,10 +11,9 @@ function App() {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
-      <main className="p-4">
-        <Routes>
-          <Route path="/" element={<Navigate to="/home" />} />
-          <Route path="/home" element={<Home />} />
+      <main className="flex-1 pt-24 pb-36 overflow-auto">
+        <Routes>          
+          <Route path="/" element={<Home />} />
           {/* Add more routes as needed */}
         </Routes>
       </main>
