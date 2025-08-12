@@ -76,7 +76,7 @@ const Manual = () => {
         "Each symbol has specific vibrational qualities"
       ],
       symbols: {
-        money: ["☿ Mercury", "♃ Jupiter", "💰 Gold symbol", "🔺 Earth triangle"],
+        money: ["☿ Mercury", "♃ Jupiter", "💰 Gold symbol"],
         love: ["♀ Venus", "❤️ Heart", "🌹 Rose symbol", "💕 Union sign"],
         health: ["☉ Sun", "🌿 Life force", "⚕️ Healing symbol", "💚 Vitality"],
         protection: ["♂ Mars", "🛡️ Shield", "👁️ Evil eye", "🔮 Crystal"]
