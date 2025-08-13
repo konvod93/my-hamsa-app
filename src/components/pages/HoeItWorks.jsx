@@ -16,93 +16,93 @@ const HowItWorksPage = () => {
   const steps = [
     {
       id: 1,
-      title: "Spiritual Consultation",
-      shortTitle: "Consultation",
-      description: "Share your intentions, goals, and spiritual needs with our mystical advisors",
+      title: "Formulate Your Intention",
+      shortTitle: "Intention",
+      description: "Create a powerful, specific intention sentence that defines your spiritual goal",
       details: [
-        "Deep dive into your personal energy signature",
-        "Identify areas of your life needing protection or enhancement",
-        "Explore your spiritual history and connection preferences",
-        "Determine the most suitable Hamsa style for your path"
+        "Write your intention in present tense as if already achieved",
+        "Be specific with amounts, timeframes, and details", 
+        "Use positive, affirmative language only",
+        "Focus on what you want to receive, not what you lack"
       ],
-      icon: "🔮",
+      icon: "💭",
       color: "from-purple-500 to-indigo-600",
-      time: "30-45 minutes"
+      time: "5-10 minutes"
     },
     {
       id: 2,
-      title: "Sacred Design Creation",
-      shortTitle: "Design",
-      description: "Our artisans create a unique design based on your spiritual profile",
+      title: "Letter Processing",
+      shortTitle: "Processing",
+      description: "Our mystical algorithm extracts unique letters from your intention",
       details: [
-        "Select meaningful symbols and sacred geometry",
-        "Choose gemstones aligned with your chakras and intentions",
-        "Incorporate personal elements (initials, birth date, etc.)",
-        "Design review and refinement with your input"
+        "System analyzes your intention sentence letter by letter",
+        "Removes duplicate letters to create your personal code",
+        "Each remaining letter holds specific vibrational energy",
+        "Creates a unique mystical formula based on your words"
       ],
-      icon: "🎨",
+      icon: "🔤",
       color: "from-indigo-500 to-blue-600",
-      time: "2-3 days"
+      time: "Instant"
     },
     {
       id: 3,
-      title: "Lunar Timing & Blessing",
-      shortTitle: "Blessing",
-      description: "We align the creation process with optimal lunar and celestial energies",
+      title: "Symbol Selection",
+      shortTitle: "Symbols",
+      description: "Choose additional sacred symbols to amplify your talisman's power",
       details: [
-        "Calculate the most auspicious timing for your talisman",
-        "Perform cleansing rituals on all materials",
-        "Invoke protective energies and blessings",
-        "Set intentions during peak spiritual moments"
+        "Select from planetary symbols aligned with your goals",
+        "Add elemental energies (fire, water, air, earth, spirit)",
+        "Include ancient runes for specific intentions",
+        "Incorporate Hebrew letters for divine connection"
       ],
-      icon: "🌙",
+      icon: "🌟",
       color: "from-blue-500 to-cyan-600",
-      time: "Varies with lunar cycle"
+      time: "5-15 minutes"
     },
     {
       id: 4,
-      title: "Mystical Crafting",
-      shortTitle: "Crafting",
-      description: "Master craftspeople create your talisman using ancient techniques",
+      title: "Sacred Geometry Generation",
+      shortTitle: "Generation",
+      description: "Advanced mystical algorithms arrange your elements within the Hamsa",
       details: [
-        "Hand-forge metals using traditional methods",
-        "Precisely set gemstones at calculated positions",
-        "Apply sacred oils and blessed materials",
-        "Maintain focused intention throughout creation"
+        "Letters arranged according to ancient sacred patterns",
+        "Symbols positioned at energetically optimal points",
+        "Hamsa geometry calculated for maximum spiritual resonance",
+        "Each element precisely placed for harmonic balance"
       ],
-      icon: "🔨",
+      icon: "⚙️",
       color: "from-cyan-500 to-teal-600",
-      time: "5-7 days"
+      time: "Processing..."
     },
     {
       id: 5,
-      title: "Energy Activation",
-      shortTitle: "Activation",
-      description: "Your completed talisman undergoes final activation and charging",
+      title: "Digital Manifestation",
+      shortTitle: "Creation",
+      description: "Your personalized talisman materializes with your unique energy signature",
       details: [
-        "Expose to full moon energy for 3 consecutive nights",
-        "Charge with crystal grid amplification",
-        "Perform activation ceremony with your photo",
-        "Test energy resonance and potency"
+        "Visual representation of your spiritual intention",
+        "High-resolution sacred design ready for use",
+        "Embedded with your personal vibrational frequency",
+        "Can be printed, saved, or used as digital protection"
       ],
-      icon: "⚡",
+      icon: "🪬",
       color: "from-teal-500 to-green-600",
-      time: "3-4 days"
+      time: "Complete!"
     },
     {
       id: 6,
-      title: "Sacred Delivery",
-      shortTitle: "Delivery",
-      description: "Receive your personalized talisman with care instructions and guidance",
+      title: "Spiritual Activation",
+      shortTitle: "Activation",
+      description: "Learn how to activate and use your newly created talisman",
       details: [
-        "Specially blessed packaging with protective symbols",
-        "Detailed activation guide for personal use",
-        "Care and maintenance instructions",
-        "Ongoing spiritual support and guidance"
+        "Receive detailed instructions for spiritual activation",
+        "Learn meditation techniques with your talisman",
+        "Understand optimal placement and usage methods",
+        "Connect with the energy you've created"
       ],
-      icon: "📦",
+      icon: "✨",
       color: "from-green-500 to-amber-600",
-      time: "2-3 days shipping"
+      time: "Ongoing practice"
     }
   ];
 
