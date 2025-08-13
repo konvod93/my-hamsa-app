@@ -4,7 +4,7 @@ import Footer from './components/Footer'
 import { Routes, Route, Navigate } from 'react-router-dom';
 import Home from './components/pages/Home'
 import WhatIsPage from './components/pages/WhatIsPage';
-import HowItWorksPage from './components/pages/HoeItWorks';
+import HowItWorksPage from './components/pages/HowItWorks';
 import Manual from './components/pages/Manual';
 import CreateTalisman from './components/pages/CreateTalisman';
 import NotFound from './components/pages/NotFound';
