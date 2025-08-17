@@ -1,12 +1,51 @@
-# React + Vite
+# React + Vite + Tailwind CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🪄 Hamsa Work — TON Integration Circle
 
-Currently, two official plugins are available:
+This branch marks the beginning of a new ritual:  
+the invocation of TON wallet connectivity and payment flow.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Purpose
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To integrate TON wallet support into the Hamsa Work SPA, enabling:
+
+- 🔗 Connection via [TON Connect](https://ton.org/docs/ton-connect/introduction)
+- 💸 Payment flow to the ritual wallet:  
+  `UQDSd1PtSR1FgnFFBumBzZyPqymHoWsVNmYCTWlpwk_f8g2f`
+- 🧙‍♂️ Symbolic UX: treating payment as initiation, not transaction
+
+---
+
+## 🧱 Technical Goals
+
+- Add `@tonconnect/sdk` and configure manifest
+- Create `ConnectWalletButton` component
+- Generate `tonconnect-manifest.json` during build via `postbuild.js`
+- Ensure Surge fallback (`200.html`) remains intact
+- Prepare for future Jetton support and smart contract rituals
+
+---
+
+## 🧬 Ritual Notes
+
+This branch is experimental.  
+It is a circle of invocation, not yet sealed.  
+Expect spirits to misbehave, wallets to whisper, and bugs to manifest.
+
+---
+
+## 🕯️ Deployment
+
+Live test portal:  
+[https://hamsa-work.surge.sh](https://hamsa-work.surge.sh)
+
+Ensure `tonconnect-manifest.json` is present in `dist/` after build.
+
+---
+
+## 🧾 First Commit Message
+
+```bash
+git commit -m "🪄 Initiated TON ritual: manifest, wallet prep, and sacred fallback"
