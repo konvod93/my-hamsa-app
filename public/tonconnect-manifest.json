@@ -1,0 +1,7 @@
+{
+  "name": "Local Dev App",
+  "url": "http://localhost:5173",
+  "iconUrl": "http://localhost:5173/icon.png",
+  "bridgeUrl": "https://bridge.tonapi.io/bridge",
+  "version": "2.0"
+}
