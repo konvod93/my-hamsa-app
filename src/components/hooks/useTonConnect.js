@@ -30,7 +30,7 @@ export const useTonConnect = () => {
     } catch (err) {
       toast.error('❌ Ошибка подключения кошелька');
       console.error('Ошибка подключения TON:', err);
-    }
+    }по
   };
 
   const disconnect = () => {
