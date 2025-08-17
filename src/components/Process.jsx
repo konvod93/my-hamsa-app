@@ -1,9 +1,25 @@
 const Process = () => {
-  const steps = [
-    { number: "1", title: "Share Your Intent", description: "Tell us about your goals and desires" },
-    { number: "2", title: "Choose Your Elements", description: "Select symbols and materials that resonate with you" },
-    { number: "3", title: "Mystical Creation", description: "We craft your talisman with ancient rituals" },
-    { number: "4", title: "Receive Your Power", description: "Your personal talisman is ready to guide you" }
+   const steps = [
+    {
+      number: "1",
+      title: "Invoke Your Intention",
+      description: "Articulate the desire, challenge, or transformation you seek — this becomes the seed of your talisman."
+    },
+    {
+      number: "2",
+      title: "Weave Symbolic Threads",
+      description: "Select archetypes, glyphs, and digital motifs that resonate with your path — each element carries meaning."
+    },
+    {
+      number: "3",
+      title: "Ritual Encoding",
+      description: "Your talisman is algorithmically conjured through symbolic logic, mythic mappings, and encoded resonance."
+    },
+    {
+      number: "4",
+      title: "Awaken the Artifact",
+      description: "Receive your living digital talisman — a companion, mirror, and guide woven from your intent and our ritual."
+    }
   ];
 
   return (
