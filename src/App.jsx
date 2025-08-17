@@ -8,6 +8,7 @@ import HowItWorksPage from './components/pages/HowItWorks';
 import Manual from './components/pages/Manual';
 import CreateTalisman from './components/pages/CreateTalisman';
 import NotFound from './components/pages/NotFound';
+import InProgress from './components/pages/InProgress';
 
 // Main App component
 
@@ -23,6 +24,7 @@ function App() {
           <Route path="/how-it-works" element={<HowItWorksPage />} />
           <Route path="/manual" element={<Manual />} />
           <Route path="/create-talisman" element={<CreateTalisman />} />
+          <Route path='/in-progress' element={<InProgress />} />
           {/* Add more routes as needed */}
           <Route path="*" element={<Navigate to="/not-found" replace />} />
           <Route path="/not-found" element={<NotFound />} />

@@ -373,7 +373,7 @@ const HowItWorksPage = () => {
             <button onClick={() => navigate('/create-talisman')}  className="px-12 py-4 bg-gradient-to-r from-amber-500 to-orange-500 text-white text-xl font-bold rounded-full hover:from-amber-400 hover:to-orange-400 transform hover:scale-105 transition-all duration-300 shadow-2xl hover:shadow-amber-500/50">
               Create Talisman! ✨
             </button>
-            <button className="px-12 py-4 bg-transparent border-2 border-amber-500 text-amber-500 text-xl font-bold rounded-full hover:bg-amber-500 hover:text-white transform hover:scale-105 transition-all duration-300">
+            <button onClick={() => navigate('/in-progress')} className="px-12 py-4 bg-transparent border-2 border-amber-500 text-amber-500 text-xl font-bold rounded-full hover:bg-amber-500 hover:text-white transform hover:scale-105 transition-all duration-300">
               View Gallery 🎨)
             </button>
           </div>
