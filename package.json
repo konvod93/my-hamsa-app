@@ -5,8 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "postbuild": "node create-fallback.cjs",
+    "build": "vite build && node postbuild.jsc",    
     "lint": "eslint .",
     "preview": "vite preview"
   },
