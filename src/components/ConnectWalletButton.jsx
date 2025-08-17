@@ -1,4 +1,4 @@
-import { useTonConnect } from '../hooks/useTonConnect';
+import { useTonConnect } from './hooks/useTonConnect';
 
 const ConnectWalletButton = () => {
   const { isConnected, wallet, connect, disconnect } = useTonConnect();

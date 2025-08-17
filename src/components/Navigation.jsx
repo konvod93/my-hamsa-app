@@ -62,7 +62,7 @@ const Navigation = () => {
           </ul>
         </div>
       )}
-      <ul className="hidden md:flex space-x-4">
+      <ul className="hidden md:flex space-x-4  text-center">
         <li>
           <Link to="/" className="hover:text-gray-400">
             Home
