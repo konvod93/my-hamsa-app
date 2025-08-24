@@ -1,3 +1,5 @@
+import { QRCode } from "qrcode.react";
+
 export const ManualPayment = () => {
   const tonAddress = "UQDSd1PtSR1FgnFFBumBzZyPqymHoWsVNmYCTWlpwk_f8g2f"; // твой TON-адрес
   const amount = "5 TON";
