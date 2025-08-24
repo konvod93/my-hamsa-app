@@ -9,7 +9,7 @@ import Manual from './components/pages/Manual';
 import CreateTalisman from './components/pages/CreateTalisman';
 import NotFound from './components/pages/NotFound';
 import InProgress from './components/pages/InProgress';
-import { ManualPayment } from './components/ManuallPayment';
+import { ManualPayment } from './components/pages/ManuallPayment';
 import { Toaster } from 'react-hot-toast';
 
 

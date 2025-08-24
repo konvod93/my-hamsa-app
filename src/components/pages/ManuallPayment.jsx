@@ -1,5 +1,5 @@
 export const ManualPayment = () => {
-  const tonAddress = "EQC..."; // твой TON-адрес
+  const tonAddress = "UQDSd1PtSR1FgnFFBumBzZyPqymHoWsVNmYCTWlpwk_f8g2f"; // твой TON-адрес
   const amount = "5 TON";
 
   return (

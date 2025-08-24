@@ -264,7 +264,7 @@ const CreateTalisman = () => {
           >
             Modify
           </button>
-          <button onClick={navigate('/manual-payment')} className="px-8 py-3 bg-gradient-to-r from-amber-500 to-orange-500 text-white rounded-full hover:from-amber-400 hover:to-orange-400 transition-all duration-300">
+          <button onClick={() => navigate('/manual-payment')} className="px-8 py-3 bg-gradient-to-r from-amber-500 to-orange-500 text-white rounded-full hover:from-amber-400 hover:to-orange-400 transition-all duration-300">
             Order Talisman ✨
           </button>
         </div>
