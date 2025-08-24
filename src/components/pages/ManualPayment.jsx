@@ -7,7 +7,10 @@ export const ManualPayment = () => {
   const amount = "5 TON";
   const [copied, setCopied] = useState(false);
   const navigate = useNavigate();
-
+   const handleClick = () => {
+    alert("Спасибо! Мы проверим вручную.");
+    navigate("/claim-talisman"); // или любой другой маршрут
+  }; 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(tonAddress);
     setCopied(true);
@@ -35,7 +38,7 @@ export const ManualPayment = () => {
 
       <p>После оплаты нажми кнопку ниже:</p>
       <button
-        onClick={() => {alert("Спасибо! Мы проверим вручную.")}}
+        onClick={handleClick}
         className="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mb-24"
       >
         Я оплатил
