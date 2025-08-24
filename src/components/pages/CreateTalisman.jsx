@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 const CreateTalisman = () => {
   const [intention, setIntention] = useState("");
@@ -14,6 +15,7 @@ const CreateTalisman = () => {
   const [customSymbol, setCustomSymbol] = useState("");
   const [isGenerating, setIsGenerating] = useState(false);
   const [showPreview, setShowPreview] = useState(false);
+  const navigate = useNavigate();
 
   // Symbol collections
   const symbolCategories = {
@@ -262,7 +264,7 @@ const CreateTalisman = () => {
           >
             Modify
           </button>
-          <button className="px-8 py-3 bg-gradient-to-r from-amber-500 to-orange-500 text-white rounded-full hover:from-amber-400 hover:to-orange-400 transition-all duration-300">
+          <button onClick={navigate('/manual-payment')} className="px-8 py-3 bg-gradient-to-r from-amber-500 to-orange-500 text-white rounded-full hover:from-amber-400 hover:to-orange-400 transition-all duration-300">
             Order Talisman ✨
           </button>
         </div>

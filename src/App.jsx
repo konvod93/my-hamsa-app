@@ -9,6 +9,7 @@ import Manual from './components/pages/Manual';
 import CreateTalisman from './components/pages/CreateTalisman';
 import NotFound from './components/pages/NotFound';
 import InProgress from './components/pages/InProgress';
+import { ManualPayment } from './components/ManuallPayment';
 import { Toaster } from 'react-hot-toast';
 
 
@@ -28,6 +29,7 @@ function App() {
             <Route path="/manual" element={<Manual />} />
             <Route path="/create-talisman" element={<CreateTalisman />} />
             <Route path="/in-progress" element={<InProgress />} />
+            <Route path="/manual-payment" element={<ManualPayment />} />
             {/* Add more routes as needed */}
             <Route path="*" element={<Navigate to="/not-found" replace />} />
             <Route path="/not-found" element={<NotFound />} />
