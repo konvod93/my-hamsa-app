@@ -1,10 +1,12 @@
 import { useState } from "react";
 import QRCode from "react-qr-code";
+import { useNavigate } from "react-router-dom";
 
 export const ManualPayment = () => {
   const tonAddress = "UQDSd1PtSR1FgnFFBumBzZyPqymHoWsVNmYCTWlpwk_f8g2f";
   const amount = "5 TON";
   const [copied, setCopied] = useState(false);
+  const navigate = useNavigate();
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(tonAddress);
@@ -33,7 +35,7 @@ export const ManualPayment = () => {
 
       <p>После оплаты нажми кнопку ниже:</p>
       <button
-        onClick={() => alert("Спасибо! Мы проверим вручную.")}
+        onClick={() => {alert("Спасибо! Мы проверим вручную.")}}
         className="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mb-24"
       >
         Я оплатил
