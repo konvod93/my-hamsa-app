@@ -2,7 +2,7 @@ import { useState } from "react";
 import QRCode from "react-qr-code";
 import { useNavigate } from "react-router-dom";
 
-export const ManualPayment = () => {
+ const ManualPayment = () => {
   const tonAddress = "UQDSd1PtSR1FgnFFBumBzZyPqymHoWsVNmYCTWlpwk_f8g2f";
   const amount = "5 TON";
   const [copied, setCopied] = useState(false);
@@ -46,3 +46,6 @@ export const ManualPayment = () => {
     </div>
   );
 };
+
+export default ManualPayment
+
