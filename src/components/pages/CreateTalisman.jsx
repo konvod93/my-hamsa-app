@@ -257,7 +257,7 @@ const CreateTalisman = () => {
           </p>
         </div>
         
-        <div className="flex justify-center space-x-4 mt-8">
+        <div className="flex justify-center space-x-4 mt-8 mb-24">
           <button
             onClick={() => setShowPreview(false)}
             className="px-8 py-3 bg-transparent border-2 border-amber-500 text-amber-500 rounded-full hover:bg-amber-500 hover:text-white transition-all duration-300"
