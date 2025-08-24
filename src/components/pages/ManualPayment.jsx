@@ -1,9 +1,16 @@
-
-import { useState, useEffect } from "react";
+import { useState } from "react";
+import QRCode from "react-qr-code";
 
 export const ManualPayment = () => {
-  const tonAddress = "UQDSd1PtSR1FgnFFBumBzZyPqymHoWsVNmYCTWlpwk_f8g2f"; // твой TON-адрес
-  const amount = "5 TON"; 
+  const tonAddress = "UQDSd1PtSR1FgnFFBumBzZyPqymHoWsVNmYCTWlpwk_f8g2f";
+  const amount = "5 TON";
+  const [copied, setCopied] = useState(false);
+
+  const copyToClipboard = () => {
+    navigator.clipboard.writeText(tonAddress);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  };
 
   return (
     <div className="p-8 space-y-6 mt-24 bg-indigo-900 text-white rounded-xl shadow-lg">
@@ -11,10 +18,19 @@ export const ManualPayment = () => {
       <p>
         Переведи <span className="font-semibold">{amount}</span> на TON-кошелёк:
       </p>
-      <div className="bg-gray-800 p-4 rounded-md font-mono break-all">
+
+      <button
+        onClick={copyToClipboard}
+        className="bg-gray-800 p-4 rounded-md font-mono break-all hover:bg-gray-700 active:bg-gray-600 transition cursor-pointer w-full text-left"
+      >
         {tonAddress}
+        {copied && <span className="ml-2 text-green-400">Скопировано!</span>}
+      </button>
+
+      <div className="flex justify-center bg-gradient-to-r from-indigo-700 to-purple-700 p-4 rounded-md">
+        <QRCode value={tonAddress} size={192} />
       </div>
-      
+
       <p>После оплаты нажми кнопку ниже:</p>
       <button
         onClick={() => alert("Спасибо! Мы проверим вручную.")}
