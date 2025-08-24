@@ -1,8 +1,9 @@
-import { QRCode } from "qrcode.react";
+
+import { useState, useEffect } from "react";
 
 export const ManualPayment = () => {
   const tonAddress = "UQDSd1PtSR1FgnFFBumBzZyPqymHoWsVNmYCTWlpwk_f8g2f"; // твой TON-адрес
-  const amount = "5 TON";
+  const amount = "5 TON"; 
 
   return (
     <div className="p-8 space-y-6 mt-24 bg-indigo-900 text-white rounded-xl shadow-lg">
@@ -13,11 +14,7 @@ export const ManualPayment = () => {
       <div className="bg-gray-800 p-4 rounded-md font-mono break-all">
         {tonAddress}
       </div>
-      <img
-        src={`https://tonhub.com/qr/${tonAddress}`}
-        alt="QR-код TON"
-        className="w-48 h-48 mx-auto"
-      />
+      
       <p>После оплаты нажми кнопку ниже:</p>
       <button
         onClick={() => alert("Спасибо! Мы проверим вручную.")}
